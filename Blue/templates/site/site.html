@@ -1,0 +1,11 @@
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+<div class="col-md-4">
+    {{ wtf.quick_form(form) }}
+</div>
+<body>
+    <p>You are using the site html!</p>
+    <p>{{ name }}</p>
+</body>
+{% endblock %}
